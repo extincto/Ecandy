@@ -1,0 +1,221 @@
+<!-- START: apps/profile -->
+<script src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+<div class="row">
+<div class="col-xl-4">
+     <div class="card">
+  
+      <div class="card" style="background-image: url(assets/modules/dummy-assets/common/img/photos/4.jpeg)">
+          <div class="card-block text-center">
+              <a class="cat__core__avatar cat__core__avatar--border-white cat__core__avatar--110" href="javascript:void(0);">
+                  <img src="assets/modules/dummy-assets/common/img/avatars/1.jpg" alt="Alternative text to the image">
+              </a>
+              <section class="card">
+    <p>WALLET</p>
+            </section>
+          </div>
+        </div>
+
+    
+        <div class="card">
+                <div class="card-block">
+                        <div class="coinmarketcap-currency-widget" data-currencyid="74" data-base="EUR" data-secondary="" data-ticker="false" data-rank="true" data-marketcap="true" data-volume="true" data-stats="EUR" data-statsticker="false"></div>
+                </div>
+            </div>
+
+      </div>
+      
+  </div>
+  <div class="col-xl-8">
+      <section class="card">
+          <div class="card-block">
+              <div class="nav-tabs-horizontal">
+                  <ul class="nav nav-tabs" role="tablist">
+                      <li class="nav-item">
+                          <a class="nav-link active" href="javascript: void(0);" data-toggle="tab" data-target="#products" role="tab">
+                              <i class="icmn-menu"></i>
+                              Candies
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="javascript: void(0);" data-toggle="tab" data-target="#Add" role="tab">
+                              <i class="icmn-bubbles"></i>
+                              Add a Candy
+                          </a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="javascript: void(0);" data-toggle="tab" data-target="#Informations" role="tab">
+                              <i class="icmn-cog"></i>
+                              informations
+                          </a>
+                      </li>
+                  </ul>
+                  <div class="tab-content py-4">
+                      <div class="tab-pane active" id="products" role="tabcard">
+                            <table datatable [dtOptions]="dtOptions" [dtTrigger]="dtTrigger"  class="table table-bordred table-striped table-hover">
+                                    <thead>
+                                      <tr>                                             
+                                             <th>NAME</th>
+                                             <th>QUANTITY</th>
+                                             <th>WEIGHTC</th>
+                                             <th>PRICE</th>
+                                             <th>DESCRIPTIONC</th>
+                                        
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                      <tr *ngFor="let product of products">
+                                            <td >{{ product.NAME }}</td>
+                                            <td>{{ product.QUANTITY }}</td>
+                                            <td>{{ product.WEIGHTC }}</td>
+                                            <td>{{product.PRICE }}</td>
+                                            <td>{{product.DESCRIPTIONC }}</td>
+                                      </tr>
+                                    </tbody>
+                                    </table>
+                          
+                      </div>
+                      <div class="tab-pane" id="Add" role="tabcard">
+                    
+                       
+                     <div class="row">
+                        <form class="col s12 white" #addCandy="ngForm">
+                            <div class="col-lg-8">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="l301">Nom</label>
+                                            <input name="name" #namelocal="ngModel" [(ngModel)]="name"  type="text" class="form-control" id="l301">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="form-group">
+                                    <label class="form-control-label" for="l20">Category</label>
+                                    <select name="categoryid" #categoryidlocal="ngModel" [(ngModel)]=categoryid multiple="" type="number" class="form-control height-200" id="l20">
+                                        <option  value="1">— Personalize</option>
+                                        <option   value="2">— Bagged</option>
+                                        <option value="3">— Boxes</option>
+                                        <option   value="4">— Goodies</option>
+                                    </select>
+                                </div> -->
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="l30">Categorie</label>
+                                            <input name="categoryid" #categoryidlocal="ngModel" [(ngModel)]=categoryid type="number" class="form-control" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="l30">Poid</label>
+                                            <input name="weightc" #weightclocal="ngModel" [(ngModel)]=weightc type="number" class="form-control" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Description</label>
+                                    <input name="descriptionc" #descriptionclocal="ngModel" [(ngModel)]="descriptionc" class="form-control" >
+                                </div>
+                                <br />
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="l30">Prix</label>
+                                            <input name="price" #pricelocal="ngModel" [(ngModel)]=price  type="number" class="form-control" >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="form-group">
+                                            <label for="l30">Quantité</label>
+                                            <input name="quantity" #quantitylocal="ngModel" [(ngModel)]=quantity type="number" class="form-control" >
+                                        </div>
+                                    </div>
+                                </div>                               
+                            <div class="col-lg-4">
+                                <h4 class="text-black mb-3"><strong>Product Image</strong></h4>
+                                <div class="cat__ecommerce__catalog__item">
+                                    <div class="cat__ecommerce__catalog__item__img">
+                                        <a href="javascript: void(0);">
+                                            <img src="assets/modules/ecommerce/common/img/ecommerce-empty.jpg" />
+                                        </a>
+                                    </div>
+                                    <a href="javascript: void(0);" class="cat__core__link--underlined cat__ecommerce__catalog__item__img-remove">
+                                        <small><i class="icmn-cross"></i></small> Remove
+                                    </a>
+                                </div>
+                                <div class="form-group">
+                                    <input name="urlimg" #imglocal="ngModel" [(ngModel)]="urlimg" type="file" id="l16">
+                                    <br>
+                                    <small>information for user</small>
+                                </div>
+                            </div>
+                            <div class="form-actions">
+                                <button type="submit" (click)="AddCandy(addCandy)"  class="btn-large btn-submit">Add Candy</button>
+                            </div>
+                
+                            </div>
+                
+                            </form>
+                        </div> 
+                      </div>
+                      <div class="tab-pane" id="Informations" role="tabcard">
+                          <h5 class="text-black mt-4">
+                              <strong>Personal Information</strong>
+                          </h5>
+                          <div class="row">
+                              <div class="col-lg-6">
+                                  <div class="form-group">
+                                      <label class="form-control-label" for="l0">Fisrtname</label>
+                                      <input type="text" class="form-control" id="l0">
+                                  </div>
+                              </div>
+                              <div class="col-lg-6">
+                                <div class="form-group">
+                                    <label class="form-control-label" for="l0">lastname</label>
+                                    <input type="text" class="form-control" id="l2">
+                                </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-lg-6">
+                              <div class="form-group">
+                                  <label class="form-control-label" for="l1">Email</label>
+                                  <input type="email" class="form-control" id="l1">
+                              </div>
+                          </div>
+                              <div class="col-lg-6">
+                                  <div class="form-group">
+                                      <label class="form-control-label" for="l4">Password</label>
+                                      <input type="password" class="form-control" id="l4">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="row">
+                              <div class="col-lg-6">
+                                  <h5 class="text-black mt-4">
+                                      <strong>Profile Avatar</strong>
+                                  </h5>
+                                  <div class="form-group">
+                                      <label class="form-control-label" for="l6">File Upload</label>
+                                      <input type="file" id="l6">
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="form-actions">
+                              <div class="form-group">
+                                  <button type="button" class="btn width-200 btn-primary">Submit</button>
+                                  <button type="button" class="btn btn-default">Cancel</button>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+</div>
+
+<!-- END: apps/profile -->

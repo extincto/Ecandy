@@ -1,0 +1,43 @@
+<nav class="cat__menu-left"   *ngIf="authService.isLoggedIn">
+    <div class="cat__menu-left__lock cat__menu-left__action--menu-toggle">
+        <div class="cat__menu-left__pin-button">
+            <div><!-- --></div>
+        </div>
+    </div>
+    <div class="cat__menu-left__logo">
+            <a [routerLink]="['/']">
+                <!-- <img src="assets/modules/dummy-assets/common/img/logo-inverse.png" /> -->
+            </a>
+        </div>
+    <div class="cat__menu-left__inner">
+        <ul class="cat__menu-left__list cat__menu-left__list--root">
+            <li class="cat__menu-left__item" [routerLinkActive]="['cat__menu-left__item--active']">
+                <a [routerLink]="['dashboard']" *ngIf="authService.isLoggedIn" class="cat__menu-right__action--menu-toggle">
+                    <span class="cat__menu-left__icon icmn-cog cat__core__spin-delayed--pseudo-selector"></span>
+                    Dashboard
+                </a>
+            <li class="cat__menu-left__item" [routerLinkActive]="['cat__menu-left__item--active']">
+                <a [routerLink]="['candy']">
+				            <span class="candy"></span>
+                    Candies
+                </a>
+            </li>
+            <li>
+
+
+
+                
+            </li>
+            <li class="cat__menu-left__divider"><!-- --></li>
+            <li class="cat__menu-left__item" [routerLinkActive]="['cat__menu-left__item--active']">
+                <a [routerLink]="['register']" *ngIf="!authService.isLoggedIn">
+                    <span class="cat__menu-left__icon form"></span>
+                    
+                    Register Here !
+                </a>
+            </li>
+           
+        </ul>
+    </div>
+</nav>
+

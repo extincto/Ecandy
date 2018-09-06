@@ -1,0 +1,128 @@
+/* latin-ext */
+@font-face {
+  font-family: 'Fruktur';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fruktur'), local('Fruktur-Regular'), url(https://fonts.gstatic.com/s/fruktur/v10/SZc53FHsOru5QYsMTzTMkHrS.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Fruktur';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fruktur'), local('Fruktur-Regular'), url(https://fonts.gstatic.com/s/fruktur/v10/SZc53FHsOru5QYsMTzrMkA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Fugaz One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Fugaz One'), local('FugazOne-Regular'), url(https://fonts.gstatic.com/s/fugazone/v7/rax_HiWKp9EAITukFsl8Axhf.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Gabriela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gabriela Regular'), local('Gabriela-Regular'), url(https://fonts.gstatic.com/s/gabriela/v6/qkBWXvsO6sreR8E-b8m0xLt3mQ.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Gabriela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gabriela Regular'), local('Gabriela-Regular'), url(https://fonts.gstatic.com/s/gabriela/v6/qkBWXvsO6sreR8E-b8m9xLt3mQ.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+  font-family: 'Gabriela';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Gabriela Regular'), local('Gabriela-Regular'), url(https://fonts.gstatic.com/s/gabriela/v6/qkBWXvsO6sreR8E-b8m5xLs.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Geostar Fill';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Geostar Fill'), local('GeostarFill-Regular'), url(https://fonts.gstatic.com/s/geostarfill/v7/AMOWz4SWuWiXFfjEohxQ9osEVFi3.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Griffy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Griffy'), local('Griffy-Regular'), url(https://fonts.gstatic.com/s/griffy/v5/FwZa7-ox2FQh9kfAQd6F8M0.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Griffy';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Griffy'), local('Griffy-Regular'), url(https://fonts.gstatic.com/s/griffy/v5/FwZa7-ox2FQh9kfAT96F.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Hanalei';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hanalei'), local('Hanalei-Regular'), url(https://fonts.gstatic.com/s/hanalei/v7/E21n_dD8iufIjBRHbzEsVhdR.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Hanalei';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hanalei'), local('Hanalei-Regular'), url(https://fonts.gstatic.com/s/hanalei/v7/E21n_dD8iufIjBRHbz8sVg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Hanalei Fill';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hanalei Fill'), local('HanaleiFill-Regular'), url(https://fonts.gstatic.com/s/hanaleifill/v6/fC1mPYtObGbfyQznIaQzPQi8XgjAllk.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Hanalei Fill';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Hanalei Fill'), local('HanaleiFill-Regular'), url(https://fonts.gstatic.com/s/hanaleifill/v6/fC1mPYtObGbfyQznIaQzPQi8UAjA.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Holtwood One SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Holtwood One SC'), local('HoltwoodOneSC'), url(https://fonts.gstatic.com/s/holtwoodonesc/v8/yYLx0hLR0P-3vMFSk1TCq3Txg5BHdrz7.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'IM Fell DW Pica SC';
+  font-style: normal;
+  font-weight: 400;
+  src: local('IM FELL DW Pica SC'), local('IM_FELL_DW_Pica_SC'), url(https://fonts.gstatic.com/s/imfelldwpicasc/v7/0ybjGCAu5PfqkvtGVU15aBhXz3EUrnTm_xKL.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin */
+@font-face {
+  font-family: 'Italiana';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Italiana'), local('Italiana-Regular'), url(https://fonts.gstatic.com/s/italiana/v6/QldNNTtLsx4E__B0XQmWaXw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}

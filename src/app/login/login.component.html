@@ -1,0 +1,67 @@
+
+
+  <div class="cat__pages__login__header">
+      <div class="row">
+          <div class="col-lg-8">
+              <div class="cat__pages__login__header__logo">
+         
+              </div>
+          </div>
+          <div class="col-lg-4">
+              <div class="cat__pages__login__header__menu">
+           
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="cat__pages__login__block">
+      <div class="row">
+          <div class="col-xl-12">
+                
+              <div class="cat__pages__login__block__promo text-white text-center">
+                  <h1 class="mb-3">
+                      <strong>WELCOME TO ECANDY !</strong>
+                  </h1>
+                
+              </div>
+              <div class="cat__pages__login__block__inner">
+                  <div class="cat__pages__login__block__form">
+                      <h4 class="text-uppercase">
+                          <strong>Please log in</strong>
+                      </h4>
+                      <br />
+                      <form class="col s12 white"  #LoginForm="ngForm" (ngSubmit)="login(LoginForm)">
+                          <div class="row">
+                              <div class="input-field col s6">
+                                  <input class="validate" type="text" name="email" #emaillocal="ngModel" [(ngModel)]="user.email">
+                                 <label data-error="Invalid email!">Email</label>
+                                </div>
+                                <div class="input-field col s6">
+                              <input class="validate" type="password" name="passwordc" #passwordclocal="ngModel" [(ngModel)]="user.passwordc" required  minlength="3">
+                              <label data-error="Password.errors!=null?(Password.errors.required?'Required field!':'Minimum 3 characters needed'):''">Password</label>
+                            </div>
+                          </div>
+                  
+                          <div class="row">
+                              <div class="input-field col s12">
+                                    <button (click)=login()  *ngIf="!authService.isLoggedIn"  [disabled]="!LoginForm.valid"  class="btn-large btn-submit" >Login</button>
+                              </div>
+                            </div>
+                        </form>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+  <div class="cat__pages__login__footer text-center">
+      <ul class="list-unstyled list-inline">
+        
+          <li class="list-inline-item"><a href="javascript: void(0);">Contacts</a></li>
+      </ul>
+  </div>
+ 
+<!-- </div> -->
+
+
+<!-- END: pages/login-alpha -->
+
