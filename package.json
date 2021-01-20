@@ -43,7 +43,7 @@
     "express": "^4.16.3",
     "express-session": "^1.15.6",
     "fullcalendar": "3.1.0",
-    "gsap": "1.19.1",
+    "gsap": "3.6.0",
     "jquery": "^3.3.1",
     "jquery-mask-plugin": "1.14.9",
     "jquery-mousewheel": "3.1.13",
