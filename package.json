@@ -27,7 +27,7 @@
     "autosize": "3.0.20",
     "body-parser": "^1.18.3",
     "bootstrap": "v4.0.0-alpha.6",
-    "bootstrap-select": "1.12.2",
+    "bootstrap-select": "1.13.6",
     "bootstrap-show-password": "1.0.3",
     "bootstrap-sweetalert": "1.0.1",
     "c3": "0.4.11",
