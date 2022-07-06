@@ -63,7 +63,7 @@
     "passport-local": "^1.0.0",
     "peity": "3.2.1",
     "rxjs": "^5.5.11",
-    "select2": "4.0.3",
+    "select2": "4.0.6",
     "summernote": "0.8.2",
     "tether": "1.4.0",
     "ticker": "^0.1.0",
