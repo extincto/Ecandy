@@ -40,7 +40,7 @@
     "datatables.net-dt": "^1.10.16",
     "dropify": "0.2.1",
     "eonasdan-bootstrap-datetimepicker": "4.17.47",
-    "express": "^4.16.3",
+    "express": "^4.17.3",
     "express-session": "^1.15.6",
     "fullcalendar": "3.1.0",
     "gsap": "1.19.1",
