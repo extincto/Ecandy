@@ -50,7 +50,7 @@
     "jquery-steps": "1.1.0",
     "jquery-typeahead": "2.7.6",
     "jquery-ui": "1.12.1",
-    "jsonwebtoken": "^8.2.2",
+    "jsonwebtoken": "^9.0.0",
     "ladda": "1.0.0",
     "mdbootstrap": "^4.5.4",
     "mssql": "^4.1.0",
